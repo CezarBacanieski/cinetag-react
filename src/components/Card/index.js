@@ -1,6 +1,6 @@
 import styles from './Card.module.css';
 import iconeFavoritar from './favoritar.png';
-
+    
 function Card({ id, titulo, capa }) {
     return (
         <div className={styles.container}>

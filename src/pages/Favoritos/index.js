@@ -1,15 +1,15 @@
-import styles from './Inicio.module.css';
 import Banner from 'components/Banner';
-import Card from 'components/Card';
+import styles from './Favoritos.module.css';
 import Titulo from 'components/Titulo';
+import Card from 'components/Card';
 import json from '../../json/db.json';
 
-function Inicio() {
+function Favoritos() {
   return (
     <>
-      <Banner imagem='home' />
+      <Banner imagem='favoritos' />
       <Titulo>
-        <h1>Um lugar para guardar seus vídeos e filmes!</h1>
+        <h1>Aqui são as porras dos favoritos</h1>
       </Titulo>
 
       <section className={styles.container}>
@@ -21,4 +21,4 @@ function Inicio() {
   );
 }
 
-export default Inicio;
+export default Favoritos;
